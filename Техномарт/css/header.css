@@ -131,12 +131,13 @@
     align-items: center;
     width: 150px;
     margin: 0;
+    transition: 0.3s ease;
 }
 .fa-bookmark {
     font-size: 18px;
     width: 20px;
     color: white;
-    transition: 1s, ease;
+    transition: 0.3s ease;
     opacity: 0.3;
 }
 .order_item:first-child:hover .fa-bookmark {
@@ -146,7 +147,7 @@
     font-size: 18px;
     width: 25px;
     color: white;
-    transition: 1s, ease;
+    transition: 0.3s ease;
     opacity: 0.3;
 }
 .order_item:last-child:hover .fa-cart-shopping {

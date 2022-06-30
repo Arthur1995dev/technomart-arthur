@@ -29,10 +29,10 @@
                         </div>
                         <ul class="order_list">
                             <li class="order_item">
-                                <i class="fa-solid fa-bookmark"></i>Закладки: 
+                                <i class="fa-solid fa-bookmark"></i>Закладки: 0
                             </li>
                             <li class="order_item">
-                                <i class="fa-solid fa-cart-shopping"></i>Корзина:15
+                                <i class="fa-solid fa-cart-shopping"></i>Корзина: 0
                             </li>
                         </ul>
                     </div>
@@ -53,6 +53,14 @@
                         </div>
                     <a href="#" class="login"><i class="fa-solid fa-right-to-bracket"></i>Войти</a>
                     <a href="#" class="registration">Регистрация</a>
+                    <div class="authorizer">
+                        <div class="user">
+                            <i class="fa-solid fa-user"></i>Артур Ефремов<i class="fa-solid fa-right-to-bracket"></i>
+                        </div>
+                        <div class="user_sub_menu">
+                            <a href="#">Мои заказы</a><i></i><a href="#">Личный кабинет</a>
+                        </div>
+                    </div>
                 </div>
 
                 <nav class="nav">
@@ -342,7 +350,7 @@
     </footer>    
 
     <script src="script.js" type="module"></script>
-
+    <script src="/js/authorizen.js"></script>
     <template id="template">
         <div class="button_buy">
             <i class="fa-solid fa-cart-shopping"></i>Купить
@@ -352,6 +360,29 @@
     <div class="popup_map">
         <div class="popup_map_body">
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4bcefbdc6fae76bc9b460c527eb4b263425f65029b8d13fdd61356793fa662e4&amp;width=943&amp;height=449&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div class="button_close"></div>
+        </div>
+    </div>
+    <div class="popup_feedback">
+        <div class="popup_container">
+            <form action="#" method="post">
+                <div class="form-top">
+                    <label for="your-name">
+                        <p>Ваше имя:</p>
+                        <input type="text" id="your-name" placeholder="Имя Фамилия">
+                    </label>
+                    <label for="your-mail">
+                        <p>Ваш е-mail:</p>
+                        <input type="email" name="email" id="your-mail" placeholder="email@example.com">
+                    </label>
+                </div>
+                <label for="text-mail">
+                    <p>Текст письма:</p>
+                    <textarea name="text-mail" id="text-mail" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+                </label>
+                <input type="submit" value="Отправить">
+            </form>
+            <div class="button-layer"></div>
             <div class="button_close"></div>
         </div>
     </div>

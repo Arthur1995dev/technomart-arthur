@@ -84,7 +84,6 @@
     color: black;
     text-decoration: none;
     transition: 0.3s ease;
-    display: none;
 }
 
 .fa-right-to-bracket {
@@ -118,7 +117,6 @@
     color: black;
     transition: 0.3s ease;
 
-    display: none;
 }
 .registration:hover {
     color: #EE3643;
@@ -198,9 +196,15 @@
     width: 31.8%;
     height: 70px;
     display: flex;
+    position: absolute;
+    right: 0;
     flex-direction: column;
     align-items: center;
     margin-left: 2vw;
+    transition: 0.2s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
 }
 
 .user {
@@ -212,6 +216,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: black;
 }
 .fa-user {
     font-size: 20px;
@@ -222,6 +233,12 @@
     font-size: 20px;
     color: #C5C5C5;
     padding-right: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.fa-right-to-bracket:hover {
+    color: #5b4c4c;
 }
 .user_sub_menu {
     width: 70.2%;
@@ -252,4 +269,15 @@
     background: #32425C;
     display: inline-block;
     border-radius: 50%;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+.authorized {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
 }

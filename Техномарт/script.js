@@ -3,10 +3,20 @@ import {createNew, addByMenu} from '/js/pattern.js';
 const productItems = document.querySelectorAll('.bosh');
 
 const popupClose = document.querySelector('.button_close');
-
 const mapPopup = document.querySelector('.popup_map');
-
 const mapPopupOpen = document.querySelector('.map');
+const writeUs = document.querySelector('.write_us');
+const feedbackPopup = document.querySelector('.popup_feedback');
+const popupClose2 = feedbackPopup.querySelector('.button_close');
+
+writeUs.addEventListener('click', function(evt) {
+    evt.preventDefault();
+    feedbackPopup.classList.add('visible_feedback_popup');
+})
+
+popupClose2.addEventListener('click', function(evt) {
+    feedbackPopup.classList.remove('visible_feedback_popup');
+});
 
 popupClose.addEventListener('click', function(evt) {
     mapPopup.classList.remove('visible_popup');

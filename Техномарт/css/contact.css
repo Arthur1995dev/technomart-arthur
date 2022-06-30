@@ -171,10 +171,16 @@
 .button_close {
     width: 21px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 21px;
+    right: 11px;
     height: 21px;
     background-image: url(/img/close-map.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
+
+
+
+
+
