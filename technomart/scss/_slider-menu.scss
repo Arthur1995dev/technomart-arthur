@@ -53,13 +53,8 @@
     align-items: center;
     background: rgba(255, 255, 255, 0.3);
     margin: 0;
-
     color: white;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @include mintext;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.2s ease-in-out;
@@ -197,11 +192,7 @@
     display: block;
     margin: 0;
     padding-left: 24px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
     color: white;
 }
 .fa-angle-left {
@@ -262,5 +253,3 @@
 .staider_active {
     background-color: #EE3643;
 }
-
-

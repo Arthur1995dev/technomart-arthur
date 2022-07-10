@@ -50,11 +50,7 @@
     justify-content: space-between;
 }
 .popup_container form label {
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
     color: #000000;
     width: 47.8%;
 }
@@ -78,14 +74,8 @@ input[id='your-mail'] {
     background: #EE3643;
     height: 38px;
     border: none;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-
+    @include mintext;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 

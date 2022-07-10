@@ -1,0 +1,33 @@
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+._container {
+    width: 78.3%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@mixin smalltext {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@mixin mintext {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+%flex-beetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+$basic-background: #F1F5F7;
+

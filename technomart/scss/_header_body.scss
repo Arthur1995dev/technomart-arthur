@@ -1,6 +1,6 @@
 .header_body_container {
     min-height: 278px;
-    background: #F1F5F7;
+    background: $basic-background;
     padding-top: 46px;
     transition: 0.3s ease-in-out;
 }
@@ -160,11 +160,7 @@
     align-items: center;
     text-decoration: none;
     color: white;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
     transition: 0.3s ease;
 }
 

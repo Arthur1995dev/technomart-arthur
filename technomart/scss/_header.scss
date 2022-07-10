@@ -53,11 +53,7 @@
 }
 .search label {
     color: white;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
     margin-left: 15px;
     transition: 0.3s;
 }
@@ -118,13 +114,7 @@
     color: white;
     margin: 0;
     padding: 0;
-
-
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
 }
 .order_item {
     display: flex;
@@ -165,11 +155,7 @@
     transition: 0.2s ease-in-out;
 
     color: white;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
 }
 
 .checkout:hover {
@@ -216,4 +202,3 @@
 .burger::after {
     bottom: 0;
 } 
-

@@ -1,9 +1,7 @@
 .catalog-item-body {
     width: 100%;
     margin-top: 33px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    @extend %flex-beetween;
 }
 .catalog-item-body .bosh {
     margin: 0;

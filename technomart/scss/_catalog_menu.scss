@@ -7,7 +7,7 @@
 .bread_crumbs {
     display: flex;
     width: 49.2%;
-    background-color: #F1F5F7;
+    background-color: $basic-background;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -465,7 +465,7 @@ input[type='range']::-ms-thumb{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #F1F5F7;
+    background: $basic-background;
     margin-top: 48px;
 }
 .pug {

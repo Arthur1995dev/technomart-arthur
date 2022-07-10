@@ -35,11 +35,7 @@
     background: #EE3643;
     width: 192px;
     height: 38px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @include mintext;
     text-decoration: none;
     color: white;
     align-items: center;
@@ -277,17 +273,9 @@
     user-select: none;
     justify-content: center;
     align-items: center;
-    
-    
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @include mintext;
     color: white;
-
     margin: 0;
-
 }
 .button_buy:hover {
     background: #5FBB2D;

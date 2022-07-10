@@ -36,11 +36,7 @@
 
 }
 .contacts_list li {
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    @include smalltext;
 }
 .contacts_list li::before{
     content: '\2500';
@@ -54,11 +50,7 @@
     background: #EE3643;
     width: 192px;
     height: 38px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @include mintext;
     text-decoration: none;
     color: white;
     box-sizing: border-box;
@@ -179,8 +171,3 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
-
-
-
-
-
