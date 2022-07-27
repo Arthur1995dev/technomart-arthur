@@ -16,7 +16,7 @@
     position: absolute;
     top: 90px;
     left: 0;
-    @include smalltext;
+    @extend %cuprum-reg-medium;
     color: #F3F7F9;
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@
 
 .footer_nav_item {
     display: block;
-    @include smalltext;
+    @extend %cuprum-reg-medium;
     color: #F1F5F7;
     padding: 0;
     box-sizing: border-box;

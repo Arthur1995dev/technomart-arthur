@@ -210,11 +210,7 @@
     background: #EE3643;
     width: 192px;
     height: 38px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @extend %cuprum-reg-min;
     text-decoration: none;
     color: white;
     align-items: center;

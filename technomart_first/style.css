@@ -10,7 +10,45 @@
   padding: 0 15px;
 }
 
-.catalog-item-body {
+.popup_container form label, .footer_nav_item, .footer_top_container p, .contacts_list li, .slidered_block p, .nav_list li a, .checkout, .order_list, .search label {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.popup_container form input[type=submit], .write_us, .about_company, .service_slaider_content-credit a, .button_bookmarks, .button_buy, .new, .top-layer a, .red_button, .slider_sub-item a {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.slidered_block h2 {
+  font-family: "Cuprum";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.button-price {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.bosh, .top-layer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-item-body, .popular_product-body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,11 +111,6 @@
 
 .search label {
   color: white;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   margin-left: 15px;
   transition: 0.3s;
 }
@@ -141,11 +174,6 @@
   color: white;
   margin: 0;
   padding: 0;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .order_item {
@@ -191,11 +219,6 @@
   border: none;
   transition: 0.2s ease-in-out;
   color: white;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 .checkout:hover {
@@ -410,11 +433,6 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   transition: 0.3s ease;
 }
 
@@ -434,7 +452,6 @@
   .header_body_menu p {
     display: none;
   }
-
   .nav_list li a {
     font-size: 14px;
     line-height: 18px;
@@ -591,11 +608,6 @@
   background: rgba(255, 255, 255, 0.3);
   margin: 0;
   color: white;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.2s ease-in-out;
@@ -673,11 +685,6 @@
   background: #EE3643;
   width: 30.9%;
   height: 38px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -737,11 +744,6 @@
   margin-bottom: 5px;
   padding-top: 23px;
   padding-left: 24px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 36px;
   color: white;
 }
 
@@ -749,11 +751,6 @@
   display: block;
   margin: 0;
   padding-left: 24px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: white;
 }
 
@@ -854,19 +851,11 @@
   }
 }
 .top-layer a {
-  display: flex;
   background: #EE3643;
   width: 192px;
   height: 38px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
-  align-items: center;
-  justify-content: center;
   margin-right: 14px;
   transition: 0.3s ease;
 }
@@ -880,10 +869,7 @@
 }
 
 .popular_product-body {
-  display: flex;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0;
   margin-top: 20px;
 }
@@ -892,12 +878,7 @@
   background: #FFFFFF;
   border: 1px solid #EAEAEA;
   box-sizing: border-box;
-  margin: 0;
-  margin-right: 2.1%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   max-width: 220px;
   height: 318px;
   position: relative;
@@ -971,11 +952,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "PT Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 18px;
   color: white;
   margin-bottom: 21px;
 }
@@ -1083,11 +1059,6 @@
   position: absolute;
   right: -30px;
   top: 5px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
   color: white;
   transform: rotate(45deg);
@@ -1111,11 +1082,6 @@
           user-select: none;
   justify-content: center;
   align-items: center;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   color: white;
   margin: 0;
 }
@@ -1147,11 +1113,6 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   color: #32425C;
 }
 
@@ -1432,11 +1393,6 @@
   background: #EE3643;
   width: 192px;
   height: 38px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
   align-items: center;
@@ -1502,14 +1458,6 @@
   padding: 0px;
 }
 
-.contacts_list li {
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .contacts_list li::before {
   content: "─";
   color: red;
@@ -1523,11 +1471,6 @@
   background: #EE3643;
   width: 192px;
   height: 38px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
   box-sizing: border-box;
@@ -1580,11 +1523,6 @@
   background: #EE3643;
   width: 100%;
   height: 38px;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-decoration: none;
   color: white;
   box-sizing: border-box;
@@ -1672,11 +1610,6 @@
   position: absolute;
   top: 90px;
   left: 0;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #F3F7F9;
   padding: 0;
   margin: 0;
@@ -1695,11 +1628,6 @@
 
 .footer_nav_item {
   display: block;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #F1F5F7;
   padding: 0;
   box-sizing: border-box;
@@ -1937,15 +1865,9 @@ aside {
 
 /*сам элемент*/
 input[type=range] {
-  appearance: none;
-  /*Internet Explorer*/
-  /*Отключение стандартного отображения используя стили системы*/
-  -webkit-appearance: none;
-  /*Safari Chrome Opera*/
-  /*Отключение стандартного отображения используя стили системы*/
-  -moz-appearance: none;
-  /*Mozilla Firefox*/
-  /*Отключение стандартного отображения используя стили системы*/
+  appearance: none; /*Internet Explorer*/ /*Отключение стандартного отображения используя стили системы*/
+  -webkit-appearance: none; /*Safari Chrome Opera*/ /*Отключение стандартного отображения используя стили системы*/
+  -moz-appearance: none; /*Mozilla Firefox*/ /*Отключение стандартного отображения используя стили системы*/
   width: 100%;
   margin: auto;
   position: absolute;
@@ -1958,27 +1880,23 @@ input[type=range] {
 
 /*Дорожка элемента*/
 input[type=range]::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  -webkit-appearance: none; /*Отключение стандартного отображения используя стили системы*/
   height: 2px;
 }
 
 input[type=range]::-moz-range-track {
-  -moz-appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  -moz-appearance: none; /*Отключение стандартного отображения используя стили системы*/
   height: 2px;
 }
 
 input[type=range]::-ms-track {
-  appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  appearance: none; /*Отключение стандартного отображения используя стили системы*/
   height: 2px;
 }
 
 /*Ползунок элемента*/
 input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  -webkit-appearance: none; /*Отключение стандартного отображения используя стили системы*/
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -1990,8 +1908,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type=range]::-moz-range-thumb {
-  -moz-appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  -moz-appearance: none; /*Отключение стандартного отображения используя стили системы*/
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -2003,8 +1920,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 input[type=range]::-ms-thumb {
-  appearance: none;
-  /*Отключение стандартного отображения используя стили системы*/
+  appearance: none; /*Отключение стандартного отображения используя стили системы*/
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -2448,11 +2364,6 @@ input[type=range]::-ms-thumb {
 }
 
 .popup_container form label {
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
   color: #000000;
   width: 47.8%;
 }
@@ -2478,11 +2389,6 @@ input[id=your-mail] {
   background: #EE3643;
   height: 38px;
   border: none;
-  font-family: "Cuprum";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
   color: #FFFFFF;
 }

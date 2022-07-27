@@ -1,0 +1,68 @@
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+._container {
+    width: 78.3%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+//Fonts
+%cuprum-reg-medium {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+%cuprum-reg-min {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+%cuprum-bold-big {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+%cuprum-itallic {
+    font-family: 'Cuprum';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+%pt-reg-min {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+%pt-bold-medium {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+}
+//-----------------
+%flex-centr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%flex-beetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+$basic-background: #F1F5F7;

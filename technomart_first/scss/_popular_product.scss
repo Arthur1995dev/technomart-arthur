@@ -26,20 +26,18 @@
 }
 @media screen and (max-width: 850px) {
     .top-layer h2 {
-        font-size: 20px;    
+        font-size: 20px;
     }
 }
 
 .top-layer a {
-    display: flex;
+    @extend %flex-centr;
     background: #EE3643;
     width: 192px;
     height: 38px;
-    @include mintext;
+    @extend %cuprum-reg-min;
     text-decoration: none;
     color: white;
-    align-items: center;
-    justify-content: center;
     margin-right: 14px;
     transition: 0.3s ease;
 }
@@ -51,10 +49,8 @@
 }
 
 .popular_product-body {
-    display: flex;
+    @extend %flex-beetween;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0;
     margin-top: 20px;
 }
@@ -63,17 +59,12 @@
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
-    margin: 0;
-    margin-right: 2.1%;
-    display: flex;
+    @extend %flex-centr;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     max-width: 220px;
     height: 318px;
     position: relative;
     overflow: hidden;
-
     transition: 0.5s ease;
 }
 .bosh:hover {
@@ -137,12 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 18px;
+    @extend %pt-bold-medium;
     color: white;
     margin-bottom: 21px;
 }
@@ -247,12 +233,7 @@
     position: absolute;
     right: -30px;
     top: 5px;
-
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @extend %cuprum-reg-min;
     text-transform: uppercase;
     color: white;
     transform: rotate(45deg);
@@ -273,7 +254,7 @@
     user-select: none;
     justify-content: center;
     align-items: center;
-    @include mintext;
+    @extend %cuprum-reg-min;
     color: white;
     margin: 0;
 }
@@ -301,11 +282,7 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @extend %cuprum-reg-min;
     color: #32425C;
 }
 

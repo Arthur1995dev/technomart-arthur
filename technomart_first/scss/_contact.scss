@@ -36,7 +36,7 @@
 
 }
 .contacts_list li {
-    @include smalltext;
+    @extend %cuprum-reg-medium;
 }
 .contacts_list li::before{
     content: '\2500';
@@ -50,7 +50,7 @@
     background: #EE3643;
     width: 192px;
     height: 38px;
-    @include mintext;
+    @extend %cuprum-reg-min;
     text-decoration: none;
     color: white;
     box-sizing: border-box;
@@ -101,11 +101,7 @@
     background: #EE3643;
     width: 100%;
     height: 38px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @extend %cuprum-reg-min;
     text-decoration: none;
     color: white;
     box-sizing: border-box;

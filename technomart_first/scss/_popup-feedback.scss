@@ -50,7 +50,7 @@
     justify-content: space-between;
 }
 .popup_container form label {
-    @include smalltext;
+    @extend %cuprum-reg-medium;
     color: #000000;
     width: 47.8%;
 }
@@ -74,7 +74,7 @@ input[id='your-mail'] {
     background: #EE3643;
     height: 38px;
     border: none;
-    @include mintext;
+    @extend %cuprum-reg-min;
     text-transform: uppercase;
     color: #FFFFFF;
 }

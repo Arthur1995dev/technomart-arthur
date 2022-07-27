@@ -160,7 +160,7 @@
     align-items: center;
     text-decoration: none;
     color: white;
-    @include smalltext;
+    @extend %cuprum-reg-medium;
     transition: 0.3s ease;
 }
 

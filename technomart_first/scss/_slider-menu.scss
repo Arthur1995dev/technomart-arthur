@@ -54,7 +54,7 @@
     background: rgba(255, 255, 255, 0.3);
     margin: 0;
     color: white;
-    @include mintext;
+    @extend %cuprum-reg-min;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.2s ease-in-out;
@@ -121,12 +121,7 @@
     background: #EE3643;
     width: 30.9%;
     height: 38px;
-
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    @extend %cuprum-reg-min;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -180,11 +175,7 @@
     margin-bottom: 5px;
     padding-top: 23px;
     padding-left: 24px;
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 36px;
+    @extend %cuprum-bold-big;
     color: white;
 }
 
@@ -192,7 +183,7 @@
     display: block;
     margin: 0;
     padding-left: 24px;
-    @include smalltext;
+    @extend %cuprum-reg-medium;
     color: white;
 }
 .fa-angle-left {
