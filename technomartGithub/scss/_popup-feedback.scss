@@ -1,0 +1,84 @@
+.popup_feedback {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    position: fixed;
+    @extend %flex-centr;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s ease;
+    transform: translateY(-100%);
+}
+.popup_container {
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 430px;
+    position: relative;
+    box-sizing: border-box;
+    background:white;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.75));
+    box-shadow: inset 0 7px 0 0 #EE3643;;
+}
+
+.button-layer {
+    width: 100%;
+    height: 112px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background: #F4F4F4;
+}
+.popup_container form {
+    width: 74.2%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: transparent;
+    z-index: 2;
+
+}
+.form-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.popup_container form label {
+    @extend %cuprum-reg-medium;
+    color: #000000;
+    width: 47.8%;
+}
+
+input[id='your-name'],
+input[id='your-mail'] {
+   width: 100%;
+   height: 38px;
+}
+.popup_container form label[for='text-mail'] {
+    width: 100%;
+}
+.popup_container form textarea {
+    width: 100%;
+    height: 114px;
+}
+
+.popup_container form input[type='submit'] {
+    width: 100%;
+    margin-top: 74px;
+    background: #EE3643;
+    height: 38px;
+    border: none;
+    @extend %cuprum-reg-min;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.visible_feedback_popup {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
