@@ -5,10 +5,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    @extend %flex-centr;
     opacity: 0;
     visibility: hidden;
     transition: 0.8s ease;
@@ -58,7 +55,7 @@
 input[id='your-name'],
 input[id='your-mail'] {
    width: 100%;
-   height: 38px; 
+   height: 38px;
 }
 .popup_container form label[for='text-mail'] {
     width: 100%;

@@ -10,7 +10,7 @@
   padding: 0 15px;
 }
 
-.popup_container form label, .footer_nav_item, .footer_top_container p, .contacts_list li, .slidered_block p, .nav_list li a, .checkout, .order_list, .search label {
+.popup_container form label, .footer_nav_item, .footer_top_container p, .contacts_list li, .slidered_block p, .nav_list li a, .checkout, .search label, .header_top_menu .order_list {
   font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
@@ -48,10 +48,10 @@
   justify-content: center;
 }
 
-.catalog-item-body, .popular_product-body {
+.catalog-item-body, .popular_product-body, .header_top_menu .order_list, .header_top_menu, .header_top {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -80,25 +80,22 @@
 }
 
 .header_top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
 }
 
 .header_top_menu {
-  display: flex;
-  max-height: 42px;
-  width: 74%;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+}
+.header_top_menu .form_search_container {
+  transition: 1s;
+  width: 50%;
+}
+.header_top_menu .order_list {
+  width: 50%;
+  list-style: none;
+  color: white;
   margin: 0;
   padding: 0;
-}
-
-.form_search_container {
-  transition: 1s;
-  width: 100%;
-  margin: 0;
 }
 
 .search {
@@ -163,17 +160,6 @@
   margin-right: 4.4vw;
   border-radius: 30px;
   box-shadow: inset 0 5px 10px 0 #b5bdcb;
-}
-
-.order_list {
-  display: flex;
-  width: 300px;
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  margin: 0;
-  padding: 0;
 }
 
 .order_item {
